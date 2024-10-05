@@ -8,6 +8,21 @@ defineProps({
 </script>
 
 <template>
+  <div>
+    <div></div>
+    <div style="display: flex;flex-direction: column;flex-wrap: wrap; width: 350px;height: 350px;">
+      <div style="width: 50px;height: 50px;background-color: brown; margin: 15px;"></div>
+      <div style="width: 50px;height: 50px;background-color: brown;margin: 15px;"></div>
+      <div style="width: 50px;height: 50px;background-color: brown;margin: 15px;"></div>
+      <div style="width: 50px;height: 50px;background-color: brown; margin: 15px;"></div>
+      <div style="width: 50px;height: 50px;background-color: brown;margin: 15px;"></div>
+      <div style="width: 50px;height: 50px;background-color: brown;margin: 15px;"></div>
+      <div style="width: 50px;height: 50px;background-color: brown; margin: 15px;"></div>
+      <div style="width: 50px;height: 50px;background-color: brown;margin: 15px;"></div>
+      <div style="width: 50px;height: 50px;background-color: brown;margin: 15px;"></div>
+
+    </div>
+  </div>
   chama
 </template>
 
