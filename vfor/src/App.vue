@@ -6,24 +6,8 @@ const nomes = ['joão', 'maria', 'jose', 'ana', 'carlos' ]
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-    <div>
-    <p>o nome  que está na lista é:</p>
-    <ul>
-      <li v-for="nome in nomes" :key="nome">{{ nome }}</li>
-    </ul>
-    </div>
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  
+<HelloWorld/>
 </template>
 
 <style scoped>
